@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		305757DC2BADFB6100EB7E7E /* MyMeganeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */; };
+		305757DE2BADFB6100EB7E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757DD2BADFB6100EB7E7E /* ContentView.swift */; };
+		305757E02BADFB6200EB7E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305757DF2BADFB6200EB7E7E /* Assets.xcassets */; };
+		305757E32BADFB6200EB7E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305757E22BADFB6200EB7E7E /* Preview Assets.xcassets */; };
+		305757ED2BADFB6200EB7E7E /* MyMeganeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757EC2BADFB6200EB7E7E /* MyMeganeTests.swift */; };
+		305757F72BADFB6200EB7E7E /* MyMeganeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757F62BADFB6200EB7E7E /* MyMeganeUITests.swift */; };
+		305757F92BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757F82BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		305757E92BADFB6200EB7E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 305757D02BADFB6100EB7E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 305757D72BADFB6100EB7E7E;
+			remoteInfo = MyMegane;
+		};
+		305757F32BADFB6200EB7E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 305757D02BADFB6100EB7E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 305757D72BADFB6100EB7E7E;
+			remoteInfo = MyMegane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305757D82BADFB6100EB7E7E /* MyMegane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMegane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeApp.swift; sourceTree = "<group>"; };
+		305757DD2BADFB6100EB7E7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		305757DF2BADFB6200EB7E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		305757E22BADFB6200EB7E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		305757E82BADFB6200EB7E7E /* MyMeganeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeganeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305757EC2BADFB6200EB7E7E /* MyMeganeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeTests.swift; sourceTree = "<group>"; };
+		305757F22BADFB6200EB7E7E /* MyMeganeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeganeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305757F62BADFB6200EB7E7E /* MyMeganeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeUITests.swift; sourceTree = "<group>"; };
+		305757F82BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		305757D52BADFB6100EB7E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305757E52BADFB6200EB7E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305757EF2BADFB6200EB7E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305757CF2BADFB6100EB7E7E = {
+			isa = PBXGroup;
+			children = (
+				305757DA2BADFB6100EB7E7E /* MyMegane */,
+				305757EB2BADFB6200EB7E7E /* MyMeganeTests */,
+				305757F52BADFB6200EB7E7E /* MyMeganeUITests */,
+				305757D92BADFB6100EB7E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		305757D92BADFB6100EB7E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				305757D82BADFB6100EB7E7E /* MyMegane.app */,
+				305757E82BADFB6200EB7E7E /* MyMeganeTests.xctest */,
+				305757F22BADFB6200EB7E7E /* MyMeganeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		305757DA2BADFB6100EB7E7E /* MyMegane */ = {
+			isa = PBXGroup;
+			children = (
+				305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */,
+				305757DD2BADFB6100EB7E7E /* ContentView.swift */,
+				305757DF2BADFB6200EB7E7E /* Assets.xcassets */,
+				305757E12BADFB6200EB7E7E /* Preview Content */,
+			);
+			path = MyMegane;
+			sourceTree = "<group>";
+		};
+		305757E12BADFB6200EB7E7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				305757E22BADFB6200EB7E7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		305757EB2BADFB6200EB7E7E /* MyMeganeTests */ = {
+			isa = PBXGroup;
+			children = (
+				305757EC2BADFB6200EB7E7E /* MyMeganeTests.swift */,
+			);
+			path = MyMeganeTests;
+			sourceTree = "<group>";
+		};
+		305757F52BADFB6200EB7E7E /* MyMeganeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				305757F62BADFB6200EB7E7E /* MyMeganeUITests.swift */,
+				305757F82BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift */,
+			);
+			path = MyMeganeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		305757D72BADFB6100EB7E7E /* MyMegane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305757FC2BADFB6200EB7E7E /* Build configuration list for PBXNativeTarget "MyMegane" */;
+			buildPhases = (
+				305757D42BADFB6100EB7E7E /* Sources */,
+				305757D52BADFB6100EB7E7E /* Frameworks */,
+				305757D62BADFB6100EB7E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMegane;
+			productName = MyMegane;
+			productReference = 305757D82BADFB6100EB7E7E /* MyMegane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		305757E72BADFB6200EB7E7E /* MyMeganeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305757FF2BADFB6200EB7E7E /* Build configuration list for PBXNativeTarget "MyMeganeTests" */;
+			buildPhases = (
+				305757E42BADFB6200EB7E7E /* Sources */,
+				305757E52BADFB6200EB7E7E /* Frameworks */,
+				305757E62BADFB6200EB7E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305757EA2BADFB6200EB7E7E /* PBXTargetDependency */,
+			);
+			name = MyMeganeTests;
+			productName = MyMeganeTests;
+			productReference = 305757E82BADFB6200EB7E7E /* MyMeganeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		305757F12BADFB6200EB7E7E /* MyMeganeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305758022BADFB6200EB7E7E /* Build configuration list for PBXNativeTarget "MyMeganeUITests" */;
+			buildPhases = (
+				305757EE2BADFB6200EB7E7E /* Sources */,
+				305757EF2BADFB6200EB7E7E /* Frameworks */,
+				305757F02BADFB6200EB7E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305757F42BADFB6200EB7E7E /* PBXTargetDependency */,
+			);
+			name = MyMeganeUITests;
+			productName = MyMeganeUITests;
+			productReference = 305757F22BADFB6200EB7E7E /* MyMeganeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		305757D02BADFB6100EB7E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					305757D72BADFB6100EB7E7E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					305757E72BADFB6200EB7E7E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 305757D72BADFB6100EB7E7E;
+					};
+					305757F12BADFB6200EB7E7E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 305757D72BADFB6100EB7E7E;
+					};
+				};
+			};
+			buildConfigurationList = 305757D32BADFB6100EB7E7E /* Build configuration list for PBXProject "MyMegane" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 305757CF2BADFB6100EB7E7E;
+			productRefGroup = 305757D92BADFB6100EB7E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				305757D72BADFB6100EB7E7E /* MyMegane */,
+				305757E72BADFB6200EB7E7E /* MyMeganeTests */,
+				305757F12BADFB6200EB7E7E /* MyMeganeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		305757D62BADFB6100EB7E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305757E32BADFB6200EB7E7E /* Preview Assets.xcassets in Resources */,
+				305757E02BADFB6200EB7E7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305757E62BADFB6200EB7E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305757F02BADFB6200EB7E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		305757D42BADFB6100EB7E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305757DE2BADFB6100EB7E7E /* ContentView.swift in Sources */,
+				305757DC2BADFB6100EB7E7E /* MyMeganeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305757E42BADFB6200EB7E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305757ED2BADFB6200EB7E7E /* MyMeganeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305757EE2BADFB6200EB7E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305757F92BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift in Sources */,
+				305757F72BADFB6200EB7E7E /* MyMeganeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		305757EA2BADFB6200EB7E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 305757D72BADFB6100EB7E7E /* MyMegane */;
+			targetProxy = 305757E92BADFB6200EB7E7E /* PBXContainerItemProxy */;
+		};
+		305757F42BADFB6200EB7E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 305757D72BADFB6100EB7E7E /* MyMegane */;
+			targetProxy = 305757F32BADFB6200EB7E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		305757FA2BADFB6200EB7E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		305757FB2BADFB6200EB7E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		305757FD2BADFB6200EB7E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyMegane/Preview Content\"";
+				DEVELOPMENT_TEAM = HS8PVR3BLT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = craftcode.MyMegane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		305757FE2BADFB6200EB7E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyMegane/Preview Content\"";
+				DEVELOPMENT_TEAM = HS8PVR3BLT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = craftcode.MyMegane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		305758002BADFB6200EB7E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS8PVR3BLT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = craftcode.MyMeganeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMegane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMegane";
+			};
+			name = Debug;
+		};
+		305758012BADFB6200EB7E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS8PVR3BLT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = craftcode.MyMeganeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMegane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyMegane";
+			};
+			name = Release;
+		};
+		305758032BADFB6200EB7E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS8PVR3BLT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = craftcode.MyMeganeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyMegane;
+			};
+			name = Debug;
+		};
+		305758042BADFB6200EB7E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HS8PVR3BLT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = craftcode.MyMeganeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyMegane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		305757D32BADFB6100EB7E7E /* Build configuration list for PBXProject "MyMegane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305757FA2BADFB6200EB7E7E /* Debug */,
+				305757FB2BADFB6200EB7E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305757FC2BADFB6200EB7E7E /* Build configuration list for PBXNativeTarget "MyMegane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305757FD2BADFB6200EB7E7E /* Debug */,
+				305757FE2BADFB6200EB7E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305757FF2BADFB6200EB7E7E /* Build configuration list for PBXNativeTarget "MyMeganeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305758002BADFB6200EB7E7E /* Debug */,
+				305758012BADFB6200EB7E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305758022BADFB6200EB7E7E /* Build configuration list for PBXNativeTarget "MyMeganeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305758032BADFB6200EB7E7E /* Debug */,
+				305758042BADFB6200EB7E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 305757D02BADFB6100EB7E7E /* Project object */;
+}
