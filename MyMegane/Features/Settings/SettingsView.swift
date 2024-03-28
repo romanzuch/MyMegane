@@ -47,11 +47,11 @@ struct SettingsView: View {
                                     .tag(icon.name)
                             }
                         } label: {
-                            Text("Icon")
+                            Text("Appsymbol")
                         }
                         .pickerStyle(.navigationLink)
                         HStack {
-                            Text("Wizard")
+                            Text("Appeinführung")
                             Spacer()
                             Button(action: {
                                 settingsViewModel.showOnboardingWizard = true
