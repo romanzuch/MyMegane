@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302B4C1F2BB1E14100519BB5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B4C1E2BB1E14100519BB5 /* OnboardingView.swift */; };
+		302B4C212BB1EBE800519BB5 /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B4C202BB1EBE800519BB5 /* AppIcon.swift */; };
 		305757DC2BADFB6100EB7E7E /* MyMeganeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */; };
-		305757DE2BADFB6100EB7E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757DD2BADFB6100EB7E7E /* ContentView.swift */; };
+		305757DE2BADFB6100EB7E7E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757DD2BADFB6100EB7E7E /* DashboardView.swift */; };
 		305757E02BADFB6200EB7E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305757DF2BADFB6200EB7E7E /* Assets.xcassets */; };
 		305757E32BADFB6200EB7E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305757E22BADFB6200EB7E7E /* Preview Assets.xcassets */; };
 		305757ED2BADFB6200EB7E7E /* MyMeganeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757EC2BADFB6200EB7E7E /* MyMeganeTests.swift */; };
 		305757F72BADFB6200EB7E7E /* MyMeganeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757F62BADFB6200EB7E7E /* MyMeganeUITests.swift */; };
 		305757F92BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757F82BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift */; };
+		305758082BAF33EC00EB7E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305758072BAF33EC00EB7E7E /* ContentView.swift */; };
+		3057580A2BAF342A00EB7E7E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305758092BAF342A00EB7E7E /* SettingsView.swift */; };
+		3057580D2BAF355300EB7E7E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3057580C2BAF355300EB7E7E /* SettingsViewModel.swift */; };
+		305758112BAF358200EB7E7E /* MeganeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305758102BAF358200EB7E7E /* MeganeModel.swift */; };
+		306B45612BAF56DD00CBE112 /* WizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B45602BAF56DD00CBE112 /* WizardView.swift */; };
+		306B45642BAF596C00CBE112 /* WizardGreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B45632BAF596C00CBE112 /* WizardGreetingView.swift */; };
+		306B45662BAF5FC400CBE112 /* WizardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B45652BAF5FC400CBE112 /* WizardViewModel.swift */; };
+		30F0C39B2BB2071D00B97CD3 /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F0C39A2BB2071D00B97CD3 /* Published.swift */; };
+		30F83CAE2BB58723001DAFE7 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F83CAD2BB58723001DAFE7 /* CardType.swift */; };
+		30F83CB22BB5B30A001DAFE7 /* ChargingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F83CB12BB5B30A001DAFE7 /* ChargingMode.swift */; };
+		30F83CB52BB5C02C001DAFE7 /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F83CB42BB5C02C001DAFE7 /* BackgroundGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		302B4C1E2BB1E14100519BB5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		302B4C202BB1EBE800519BB5 /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
 		305757D82BADFB6100EB7E7E /* MyMegane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMegane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeApp.swift; sourceTree = "<group>"; };
-		305757DD2BADFB6100EB7E7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		305757DD2BADFB6100EB7E7E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		305757DF2BADFB6200EB7E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305757E22BADFB6200EB7E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		305757E82BADFB6200EB7E7E /* MyMeganeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeganeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,17 @@
 		305757F22BADFB6200EB7E7E /* MyMeganeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMeganeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		305757F62BADFB6200EB7E7E /* MyMeganeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeUITests.swift; sourceTree = "<group>"; };
 		305757F82BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		305758072BAF33EC00EB7E7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		305758092BAF342A00EB7E7E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3057580C2BAF355300EB7E7E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		305758102BAF358200EB7E7E /* MeganeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeganeModel.swift; sourceTree = "<group>"; };
+		306B45602BAF56DD00CBE112 /* WizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardView.swift; sourceTree = "<group>"; };
+		306B45632BAF596C00CBE112 /* WizardGreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardGreetingView.swift; sourceTree = "<group>"; };
+		306B45652BAF5FC400CBE112 /* WizardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardViewModel.swift; sourceTree = "<group>"; };
+		30F0C39A2BB2071D00B97CD3 /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
+		30F83CAD2BB58723001DAFE7 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		30F83CB12BB5B30A001DAFE7 /* ChargingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingMode.swift; sourceTree = "<group>"; };
+		30F83CB42BB5C02C001DAFE7 /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +120,13 @@
 		305757DA2BADFB6100EB7E7E /* MyMegane */ = {
 			isa = PBXGroup;
 			children = (
+				30F83CB32BB5C022001DAFE7 /* Components */,
+				30F0C3992BB2071100B97CD3 /* Extensions */,
+				3057580F2BAF357300EB7E7E /* Features */,
+				3057580E2BAF356C00EB7E7E /* Models */,
+				3057580B2BAF354400EB7E7E /* Services */,
+				305758072BAF33EC00EB7E7E /* ContentView.swift */,
 				305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */,
-				305757DD2BADFB6100EB7E7E /* ContentView.swift */,
 				305757DF2BADFB6200EB7E7E /* Assets.xcassets */,
 				305757E12BADFB6200EB7E7E /* Preview Content */,
 			);
@@ -125,6 +156,86 @@
 				305757F82BADFB6200EB7E7E /* MyMeganeUITestsLaunchTests.swift */,
 			);
 			path = MyMeganeUITests;
+			sourceTree = "<group>";
+		};
+		305758052BAF33C400EB7E7E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				305757DD2BADFB6100EB7E7E /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		305758062BAF33C900EB7E7E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				305758092BAF342A00EB7E7E /* SettingsView.swift */,
+				3057580C2BAF355300EB7E7E /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3057580B2BAF354400EB7E7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3057580E2BAF356C00EB7E7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				305758102BAF358200EB7E7E /* MeganeModel.swift */,
+				302B4C1E2BB1E14100519BB5 /* OnboardingView.swift */,
+				302B4C202BB1EBE800519BB5 /* AppIcon.swift */,
+				30F83CAD2BB58723001DAFE7 /* CardType.swift */,
+				30F83CB12BB5B30A001DAFE7 /* ChargingMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3057580F2BAF357300EB7E7E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				306B455F2BAF56D500CBE112 /* Wizard */,
+				305758062BAF33C900EB7E7E /* Settings */,
+				305758052BAF33C400EB7E7E /* Dashboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		306B455F2BAF56D500CBE112 /* Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				306B45622BAF595E00CBE112 /* Steps */,
+				306B45602BAF56DD00CBE112 /* WizardView.swift */,
+				306B45652BAF5FC400CBE112 /* WizardViewModel.swift */,
+			);
+			path = Wizard;
+			sourceTree = "<group>";
+		};
+		306B45622BAF595E00CBE112 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				306B45632BAF596C00CBE112 /* WizardGreetingView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		30F0C3992BB2071100B97CD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				30F0C39A2BB2071D00B97CD3 /* Published.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		30F83CB32BB5C022001DAFE7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30F83CB42BB5C02C001DAFE7 /* BackgroundGradient.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				305757DE2BADFB6100EB7E7E /* ContentView.swift in Sources */,
+				30F83CB22BB5B30A001DAFE7 /* ChargingMode.swift in Sources */,
+				306B45662BAF5FC400CBE112 /* WizardViewModel.swift in Sources */,
+				305758112BAF358200EB7E7E /* MeganeModel.swift in Sources */,
+				3057580D2BAF355300EB7E7E /* SettingsViewModel.swift in Sources */,
+				302B4C1F2BB1E14100519BB5 /* OnboardingView.swift in Sources */,
+				305757DE2BADFB6100EB7E7E /* DashboardView.swift in Sources */,
+				3057580A2BAF342A00EB7E7E /* SettingsView.swift in Sources */,
+				306B45642BAF596C00CBE112 /* WizardGreetingView.swift in Sources */,
+				306B45612BAF56DD00CBE112 /* WizardView.swift in Sources */,
 				305757DC2BADFB6100EB7E7E /* MyMeganeApp.swift in Sources */,
+				305758082BAF33EC00EB7E7E /* ContentView.swift in Sources */,
+				30F0C39B2BB2071D00B97CD3 /* Published.swift in Sources */,
+				302B4C212BB1EBE800519BB5 /* AppIcon.swift in Sources */,
+				30F83CAE2BB58723001DAFE7 /* CardType.swift in Sources */,
+				30F83CB52BB5C02C001DAFE7 /* BackgroundGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +541,10 @@
 		305757FD2BADFB6200EB7E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "Megatron Colorful Green";
+				ASSETCATALOG_COMPILER_APPICON_NAME = Standard;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyMegane/Preview Content\"";
@@ -446,8 +572,10 @@
 		305757FE2BADFB6200EB7E7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "Megatron Colorful Green";
+				ASSETCATALOG_COMPILER_APPICON_NAME = Standard;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyMegane/Preview Content\"";

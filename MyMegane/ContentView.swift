@@ -2,20 +2,42 @@
 //  ContentView.swift
 //  MyMegane
 //
-//  Created by Roman Zuchowski on 22.03.24.
+//  Created by Roman Zuchowski on 23.03.24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var settingsViewModel: SettingsViewModel = SettingsViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        switch settingsViewModel.showOnboardingWizard {
+        case true:
+            onboardingBody
+        case false:
+            defaultAppBody
         }
-        .padding()
+    }
+    
+    var defaultAppBody: some View {
+        TabView {
+            DashboardView()
+                .tabItem {
+                    Label("Dein Megane", systemImage: "car")
+                }
+                .environmentObject(settingsViewModel)
+            SettingsView()
+                .tabItem {
+                    Label("Einstellungen", systemImage: "gear")
+                }
+                .environmentObject(settingsViewModel)
+        }
+    }
+    
+    var onboardingBody: some View {
+        WizardView()
+            .environmentObject(settingsViewModel)
     }
 }
 
