@@ -12,9 +12,9 @@ class SettingsViewModel: ObservableObject {
     @Published var color: MeganeColor = .blackPearl
     @Published var roof: MeganeRoof = .body
     @Published var showOnboardingWizard: Bool = true
+    @Published var chargingMode: ChargingMode = .immediate
     
     init() {
-        debugPrint("INIT")
         if let model = UserDefaults.standard.string(forKey: "model") {
             self.model = MeganeModel(rawValue: model) ?? .comfort130
         }
@@ -24,19 +24,19 @@ class SettingsViewModel: ObservableObject {
         if let roof = UserDefaults.standard.string(forKey: "roof") {
             self.roof = MeganeRoof(rawValue: roof) ?? .body
         }
+        if let mode = UserDefaults.standard.string(forKey: "chargingMode") {
+            self.chargingMode = ChargingMode(rawValue: mode) ?? .immediate
+        }
         self.showOnboardingWizard = UserDefaults.standard.bool(forKey: "showOnboardingWizard")
     }
 }
 
 extension SettingsViewModel {
     func getImageName() -> String {
-        debugPrint("\(roof.imagePrefix)\(color.imageName)")
         return "\(roof.imagePrefix)\(color.imageName)"
     }
     func saveModel(_ model: MeganeModel) {
-        debugPrint("Saving model.")
         UserDefaults.standard.setValue(model.name, forKey: "model")
-        debugPrint(UserDefaults.standard.string(forKey: "model"))
     }
     func saveColor(_ color: MeganeColor) {
         UserDefaults.standard.setValue(color.name, forKey: "color")
@@ -46,5 +46,9 @@ extension SettingsViewModel {
     }
     func saveWizard(_ wizard: Bool) {
         UserDefaults.standard.setValue(wizard, forKey: "showOnboardingWizard")
+    }
+    func saveChargingMode(_ mode: ChargingMode) {
+        self.chargingMode = mode
+        UserDefaults.standard.setValue(mode.rawValue, forKey: "chargingMode")
     }
 }

@@ -20,7 +20,6 @@ struct DashboardView: View {
     @State private var locateCarModeIsEnabled: Bool = false
     
     // Charging Control / History
-    @State private var chargingMode: ChargingMode = .immediate
     @State private var chargingModeSheetIsDisplayed: Bool = false
     @State private var chargingHistorySheetIsDisplayed: Bool = false
     
@@ -100,7 +99,7 @@ struct DashboardView: View {
                                 }
                                 Spacer()
                                 HStack {
-                                    Text(chargingMode.rawValue)
+                                    Text(settingsViewModel.chargingMode.rawValue)
                                         .font(.system(.caption2, design: .rounded, weight: .regular))
                                     Spacer()
                                     Image(systemName: "chevron.right")
@@ -117,14 +116,7 @@ struct DashboardView: View {
                                 chargingModeSheetIsDisplayed.toggle()
                             }
                             .fullScreenCover(isPresented: $chargingModeSheetIsDisplayed, content: {
-                                VStack {
-                                    Text("Ladesteuerung")
-                                    Button(action: {
-                                        chargingModeSheetIsDisplayed.toggle()
-                                    }, label: {
-                                        Text("Schließen")
-                                    })
-                                }
+                                ChargingModeSelectionView(settingsViewModel, chargingMode: $settingsViewModel.chargingMode)
                                 .presentationBackground(.ultraThinMaterial)
                             })
                             
