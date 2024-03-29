@@ -13,8 +13,20 @@ class SettingsViewModel: ObservableObject {
     @Published var roof: MeganeRoof = .body
     @Published var showOnboardingWizard: Bool = true
     @Published var chargingMode: ChargingMode = .immediate
+    @Published var delayedChargingDate: Date = .now
+    @Published var chargingLimit: Int = 85
+    let chargeLimitRange = stride(from: 0, through: 100, by: 5)
+    @Published var chargingPlans: [ChargingPlan] = [ChargingPlan]()
+    var weekdays: [String] = []
     
     init() {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "de_DE")
+        var weekdaySymbols: [String] = formatter.shortWeekdaySymbols
+        let sunday: String = weekdaySymbols.remove(at: 0)
+        weekdaySymbols.append(sunday)
+        self.weekdays = weekdaySymbols
+
         if let model = UserDefaults.standard.string(forKey: "model") {
             self.model = MeganeModel(rawValue: model) ?? .comfort130
         }

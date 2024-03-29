@@ -23,6 +23,8 @@
 		306B45612BAF56DD00CBE112 /* WizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B45602BAF56DD00CBE112 /* WizardView.swift */; };
 		306B45642BAF596C00CBE112 /* WizardGreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B45632BAF596C00CBE112 /* WizardGreetingView.swift */; };
 		306B45662BAF5FC400CBE112 /* WizardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B45652BAF5FC400CBE112 /* WizardViewModel.swift */; };
+		309F035C2BB6FF75008FA393 /* ChargingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309F035B2BB6FF75008FA393 /* ChargingPlan.swift */; };
+		30E341B62BB70C1300BA9B5C /* ChargingPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E341B52BB70C1300BA9B5C /* ChargingPlanView.swift */; };
 		30F0C39B2BB2071D00B97CD3 /* Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F0C39A2BB2071D00B97CD3 /* Published.swift */; };
 		30F83CAE2BB58723001DAFE7 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F83CAD2BB58723001DAFE7 /* CardType.swift */; };
 		30F83CB22BB5B30A001DAFE7 /* ChargingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F83CB12BB5B30A001DAFE7 /* ChargingMode.swift */; };
@@ -67,6 +69,8 @@
 		306B45602BAF56DD00CBE112 /* WizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardView.swift; sourceTree = "<group>"; };
 		306B45632BAF596C00CBE112 /* WizardGreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardGreetingView.swift; sourceTree = "<group>"; };
 		306B45652BAF5FC400CBE112 /* WizardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardViewModel.swift; sourceTree = "<group>"; };
+		309F035B2BB6FF75008FA393 /* ChargingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingPlan.swift; sourceTree = "<group>"; };
+		30E341B52BB70C1300BA9B5C /* ChargingPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingPlanView.swift; sourceTree = "<group>"; };
 		30F0C39A2BB2071D00B97CD3 /* Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published.swift; sourceTree = "<group>"; };
 		30F83CAD2BB58723001DAFE7 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
 		30F83CB12BB5B30A001DAFE7 /* ChargingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingMode.swift; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 				302B4C202BB1EBE800519BB5 /* AppIcon.swift */,
 				30F83CAD2BB58723001DAFE7 /* CardType.swift */,
 				30F83CB12BB5B30A001DAFE7 /* ChargingMode.swift */,
+				309F035B2BB6FF75008FA393 /* ChargingPlan.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				30F83CB72BB5C4D7001DAFE7 /* ChargingModeSelectionView.swift */,
+				30E341B52BB70C1300BA9B5C /* ChargingPlanView.swift */,
 			);
 			path = ChargingModeSelection;
 			sourceTree = "<group>";
@@ -379,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E341B62BB70C1300BA9B5C /* ChargingPlanView.swift in Sources */,
 				30F83CB22BB5B30A001DAFE7 /* ChargingMode.swift in Sources */,
 				306B45662BAF5FC400CBE112 /* WizardViewModel.swift in Sources */,
 				305758112BAF358200EB7E7E /* MeganeModel.swift in Sources */,
@@ -391,6 +398,7 @@
 				306B45612BAF56DD00CBE112 /* WizardView.swift in Sources */,
 				305757DC2BADFB6100EB7E7E /* MyMeganeApp.swift in Sources */,
 				305758082BAF33EC00EB7E7E /* ContentView.swift in Sources */,
+				309F035C2BB6FF75008FA393 /* ChargingPlan.swift in Sources */,
 				30F0C39B2BB2071D00B97CD3 /* Published.swift in Sources */,
 				302B4C212BB1EBE800519BB5 /* AppIcon.swift in Sources */,
 				30F83CAE2BB58723001DAFE7 /* CardType.swift in Sources */,

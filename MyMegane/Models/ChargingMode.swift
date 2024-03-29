@@ -28,7 +28,7 @@ enum ChargingMode: String, CaseIterable {
         case .immediate:
             return "Schließen Sie das Ladekabel an Ihr Fahrzeug an, um mit dem sofortigen Ladevorgang zu beginnen."
         case .delayed:
-            return "Beginnen Sie mit dem Aufladen Ihres Elektrofahrzeugs, wann immer Sie möchten."
+            return "Stellen Sie den Zeitpunkt ein, wann das Aufladen Ihres Elektrofahrzeugs beendet sein soll."
         case .planning:
             return "Stellen Sie die wöchentliche Ladeplanung Ihres Fahrzeugs ein."
         }
