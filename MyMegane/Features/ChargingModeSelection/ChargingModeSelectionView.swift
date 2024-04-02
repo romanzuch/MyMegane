@@ -87,15 +87,9 @@ struct ChargingModeSelectionView: View {
                         DatePicker("", selection: $_settingsViewModel.delayedChargingDate, displayedComponents: .hourAndMinute)
                             .datePickerStyle(.wheel)
                             .labelsHidden()
-                        HStack {
+                        DefaultStepper(value: $_settingsViewModel.chargingLimit, in: 0...100, label: {
                             Text("Ladelimit")
-                            Spacer()
-                            Picker("Ladelimit", selection: $_settingsViewModel.chargingLimit) {
-                                ForEach(Array(settingsViewModel.chargeLimitRange), id: \.self) { step in
-                                    Text("\(step) %")
-                                }
-                            }
-                        }
+                        }, style: DefaultStepperStyle(), step: 5)
                         .padding(.horizontal, 8)
                     }
                     .scrollContentBackground(.hidden)

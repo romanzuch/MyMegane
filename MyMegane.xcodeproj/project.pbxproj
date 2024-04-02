@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		302B4C1F2BB1E14100519BB5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B4C1E2BB1E14100519BB5 /* OnboardingView.swift */; };
 		302B4C212BB1EBE800519BB5 /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B4C202BB1EBE800519BB5 /* AppIcon.swift */; };
+		303E98F22BBC5F9100CACF48 /* DefaultStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E98F12BBC5F9100CACF48 /* DefaultStepper.swift */; };
+		303E98F52BBC611600CACF48 /* MDSNumericStepperStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E98F42BBC611600CACF48 /* MDSNumericStepperStyle.swift */; };
 		305757DC2BADFB6100EB7E7E /* MyMeganeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */; };
 		305757DE2BADFB6100EB7E7E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305757DD2BADFB6100EB7E7E /* DashboardView.swift */; };
 		305757E02BADFB6200EB7E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305757DF2BADFB6200EB7E7E /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 /* Begin PBXFileReference section */
 		302B4C1E2BB1E14100519BB5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		302B4C202BB1EBE800519BB5 /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
+		303E98F12BBC5F9100CACF48 /* DefaultStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStepper.swift; sourceTree = "<group>"; };
+		303E98F42BBC611600CACF48 /* MDSNumericStepperStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSNumericStepperStyle.swift; sourceTree = "<group>"; };
 		305757D82BADFB6100EB7E7E /* MyMegane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMegane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		305757DB2BADFB6100EB7E7E /* MyMeganeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeganeApp.swift; sourceTree = "<group>"; };
 		305757DD2BADFB6100EB7E7E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
@@ -103,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303E98F32BBC60F300CACF48 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				303E98F42BBC611600CACF48 /* MDSNumericStepperStyle.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		305757CF2BADFB6100EB7E7E = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 		305757DA2BADFB6100EB7E7E /* MyMegane */ = {
 			isa = PBXGroup;
 			children = (
+				303E98F32BBC60F300CACF48 /* Protocols */,
 				30F83CB32BB5C022001DAFE7 /* Components */,
 				30F0C3992BB2071100B97CD3 /* Extensions */,
 				3057580F2BAF357300EB7E7E /* Features */,
@@ -242,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				30F83CB42BB5C02C001DAFE7 /* BackgroundGradient.swift */,
+				303E98F12BBC5F9100CACF48 /* DefaultStepper.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -399,9 +413,11 @@
 				305757DC2BADFB6100EB7E7E /* MyMeganeApp.swift in Sources */,
 				305758082BAF33EC00EB7E7E /* ContentView.swift in Sources */,
 				309F035C2BB6FF75008FA393 /* ChargingPlan.swift in Sources */,
+				303E98F52BBC611600CACF48 /* MDSNumericStepperStyle.swift in Sources */,
 				30F0C39B2BB2071D00B97CD3 /* Published.swift in Sources */,
 				302B4C212BB1EBE800519BB5 /* AppIcon.swift in Sources */,
 				30F83CAE2BB58723001DAFE7 /* CardType.swift in Sources */,
+				303E98F22BBC5F9100CACF48 /* DefaultStepper.swift in Sources */,
 				30F83CB52BB5C02C001DAFE7 /* BackgroundGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
